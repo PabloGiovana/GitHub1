@@ -1,23 +1,22 @@
-import java.util.Scanner;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-package javaencuentro11;
+package Ej3;
 
 /**
  *
  * @author Pablo
  */
-public class Ejercicio3Extra {
+import java.util.*;
+public class Main {
 public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    // your code here
+        Juego j1 = new Juego();
+        j1.iniciar_juego();
+    }
 
 
 }
 
-}
